@@ -1,0 +1,21 @@
+RELAÇÕES
+
+Usuário > 1...1 > Cliente
+
+Cliente > 1...n > Pedido
+Cliente > 1...n > Avaliações
+
+Loja > 1...n > Cliente
+Loja > 1...n > Pedidos
+Loja > 1...n > Categorias > 1...n > Produtos > 1...n > Variações
+
+Produtos > 1...n > Pedidos
+Produtos > 1...n > Avaliações
+
+Pedidos > 1...1 > Pagamentos
+Pedidos > 1...1 > Entrega
+
+
+
+
+
